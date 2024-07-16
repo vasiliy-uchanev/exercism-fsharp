@@ -8,8 +8,9 @@
     <ItemGroup>
         <Compile Include="Bob.fs" />
         <Compile Include="BookingUpForBeauty.fs" />
-        <Compile Include="Interest.fs" />
+        <Compile Include="BirdWatcher.fs" />
         <Compile Include="GuessingGame.fs" />
+        <Compile Include="Interest.fs" />
         <Compile Include="Program.fs"/>
     </ItemGroup>
 
