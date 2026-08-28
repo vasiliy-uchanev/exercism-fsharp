@@ -14,17 +14,30 @@ printfn "awaiting input"
 // // Console.WriteLine (hasPassed.ToString())
 
 
-let lastWeek = BirdWatcher.lastWeek
-let yesterday = BirdWatcher.yesterday lastWeek
+// let lastWeek = BirdWatcher.lastWeek
+// let yesterday = BirdWatcher.yesterday lastWeek
+//
+// printfn $"{yesterday}"
+//
+// let total = BirdWatcher.total lastWeek
+// printfn $"{total}"
+//
+// let dayWithoutBirds = BirdWatcher.dayWithoutBirds lastWeek
+// printfn $"{dayWithoutBirds}"
+//
+// let incremented = BirdWatcher.incrementTodaysCount lastWeek
+// let strings = incremented |> Array.map (_.ToString()) |> Array.fold (fun x y -> x + ", " + y) ""
+// printfn $"{strings}"
 
-printfn $"{yesterday}"
 
-let total = BirdWatcher.total lastWeek
-printfn $"{total}"
+// let price = PizzaPricing.orderPrice [PizzaPricing.Pizza.Margherita; PizzaPricing.Pizza.Caprese; PizzaPricing.Pizza.ExtraSauce PizzaPricing.Pizza.Formaggio]
+// printfn $"{price}"
 
-let dayWithoutBirds = BirdWatcher.dayWithoutBirds lastWeek
-printfn $"{dayWithoutBirds}"
+let initial = ["a"; "b"; "c"]
+let concatString  (items:  string list) = items |> List.fold (fun x y -> x + ", " + y) ""
+let initialString = concatString initial 
+printfn $"{initialString}"
 
-let incremented = BirdWatcher.incrementTodaysCount lastWeek
-let strings = incremented |> Array.map (_.ToString()) |> Array.fold (fun x y -> x + ", " + y) ""
-printfn $"{strings}"
+let concatenated = "x" :: initial
+let concatenatedString = concatString concatenated
+printfn $"{concatenatedString}"

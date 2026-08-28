@@ -11,6 +11,13 @@
         <Compile Include="BirdWatcher.fs" />
         <Compile Include="GuessingGame.fs" />
         <Compile Include="Interest.fs" />
+        <Compile Include="TracksOnTracksOnTracks.fs" />
+        <Compile Include="Bandwagoner.fs" />
+        <Compile Include="PizzaPricing.fs" />
+        <Compile Include="TisburyTreasureHunt.fs" />
+        <Compile Include="SqueakyClean.fs" />
+        <Compile Include="Leap.fs" />
+        <Compile Include="QueenAttack.fs" />
         <Compile Include="Program.fs"/>
     </ItemGroup>
 
